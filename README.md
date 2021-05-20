@@ -18,8 +18,16 @@ cmake .. -B . -DCMAKE_PREFIX_PATH=~/Downloads/libtorch  //path to libtorch
 
 make
 
+```
+### To run problem instances using a simple feedforward network
+
+```
 ./BESampling -fUAI ../3testproblems/grid20x20.f5.uai -fVO ../grid20x20.f5.uai.ord.elim -iB 9999 -v2sample 369 -nsamples 10 -h_dim 100 --network net
 
+```
+### To run problem instances using the masked net
+
+```
 ./BESampling -fUAI ../3testproblems/pedigree19.uai -fVO ../3testproblems/pedigree19.uai.ord.elim -iB 9999 -v2sample 369 -nsamples 10 -h_dim 100  --network masked_net
 ```
 
