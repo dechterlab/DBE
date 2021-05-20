@@ -1,0 +1,19 @@
+>BESampling -fUAI c:\UCI\cvorun\pedigree20.uai -fVO c:\UCI\cvorun\pedigree20_var_elim_order-Width.vo -iB 9999 -v2sample 369 -nsamples 10
+
+STATS : nBuckets=387 MaxNumVarsInBucket=20 nPartitionedBuckets=0
+wMBE done; result=-29.6304 runtime=11sec tablesmemory=534828304 bytes
+largest bucket v=369
+will sample v=369 nsamples=10 bSize=20 vars nMBs=1
+output fn size=1769472 entries
+fn signature : 74 75 80 97 99 215 217 224 226 247 271 297 319 362 363 364 98 218 361
+signature : 0 1 0 0 0 0 0 0 1 1 1 1 0 2 0 0 0 0 0 = -inf (idx=448992)
+signature : 0 1 1 0 1 1 0 1 1 1 1 1 0 1 0 1 2 0 0 = -22.3202 (idx=759980)
+signature : 1 0 1 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 1 = -inf (idx=1130149)
+signature : 0 1 1 1 0 0 1 1 1 1 1 1 0 2 1 1 1 0 0 = -22.7315 (idx=801556)
+signature : 1 0 0 1 0 0 0 1 1 1 1 1 1 0 1 2 1 1 1 = -inf (idx=1009003)
+signature : 0 1 0 0 0 1 0 0 0 1 1 0 1 0 0 1 2 0 0 = -29.6744 (idx=472844)
+signature : 1 1 1 1 1 0 0 0 1 0 1 1 1 0 1 0 2 0 1 = -inf (idx=1719189)
+signature : 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 = -inf (idx=1390183)
+signature : 1 0 1 1 0 0 0 1 1 0 1 1 0 1 0 0 1 0 0 = -inf (idx=1228252)
+signature : 1 0 0 1 1 0 1 0 1 1 0 0 0 2 0 1 0 0 0 = -27.8126 (idx=1069788)
+>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BESampling"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\libtorch\;CMake Files\..\..\..\libtorch\share\;CMake Files\..\..\..\libtorch\share\cmake\;CMake Files\..\..\..\libtorch\share\cmake\Torch\;CMake Files\..\..\..\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\libtorch\share\cmake\Caffe2\public\;CMake Files\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BESampling">
+				<Option output="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/x64/Debug/BESampling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DWIN64"/>
+					<Add option="-DLINUX"/>
+					<Add option="-D_CONSOLE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/."/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/.."/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/Problem"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/BE"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/AND-OR"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/CVO"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/Utils"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../miniSAT"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/libtorch/include"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 BESampling"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BESampling/fast">
+				<Option output="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/x64/Debug/BESampling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DWIN64"/>
+					<Add option="-DLINUX"/>
+					<Add option="-D_CONSOLE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/."/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/.."/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/Problem"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/BE"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/AND-OR"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/CVO"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../ARP/Utils"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../miniSAT"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/libtorch/include"/>
+					<Add directory="/Users/sakshiagarwal/Documents/experiments/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 BESampling/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/Bucket.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/Bucket.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/MBEworkspace.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/MBEworkspace.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/MiniBucket-NN.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/MiniBucket.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/BE/MiniBucket.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/CVO/Graph.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/CVO/Graph.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/CVO/Graph_MinFillOrderComputation.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/CVO/Graph_RemoveRedundantFillEdges.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/CVO/VariableOrderComputation.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/CVO/VariableOrderComputation.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Config.h">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/DATA_SAMPLES.h">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Function.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Function.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Globals.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Globals.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Net.h">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Problem.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Problem.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Workspace.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Problem/Workspace.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/AVLtreeInt64.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/AVLtreeInt64.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/AVLtreeObjects.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/AVLtreeObjects.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/AVLtreeSimple.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/AVLtreeSimple.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/FnExecutionThread.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/FnExecutionThread.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/MiscUtils.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/MiscUtils.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/Mutex.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/Mutex.h">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/Sort.cxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/ARP/Utils/Sort.hxx">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/BESampling.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/pch.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/pch.h">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/miniSAT/Solver.cpp">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/miniSAT/Solver.h">
+			<Option target="BESampling"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/../../../libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/CMake/Default.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/CMake/DefaultCXX.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/sakshiagarwal/Documents/experiments/DeepBucketElimination/BE-sampling-project/BESampling/CMake/Utils.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

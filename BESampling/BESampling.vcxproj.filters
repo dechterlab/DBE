@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ARP">
+      <UniqueIdentifier>{0799477c-50b5-4443-801c-dd86a2d6f7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ARP-AND-OR">
+      <UniqueIdentifier>{df9f74c1-340f-4737-8f0c-ee60aedd33b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ARP-BE">
+      <UniqueIdentifier>{559f3e18-636c-48c8-be26-46c9d632608f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ARP-utils">
+      <UniqueIdentifier>{9962cc25-58c1-453e-91dd-489dad53d3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CVO">
+      <UniqueIdentifier>{6f0ec82e-3dcd-4238-a439-c180b4f885d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\miniSAT">
+      <UniqueIdentifier>{1b0535bb-8f3b-479a-8e4a-65ac704c44fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BESampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Problem\Function.cpp">
+      <Filter>Source Files\ARP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Problem\Globals.cpp">
+      <Filter>Source Files\ARP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Problem\Problem.cpp">
+      <Filter>Source Files\ARP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Problem\Workspace.cpp">
+      <Filter>Source Files\ARP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\BE\Bucket.cpp">
+      <Filter>Source Files\ARP-BE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\BE\MBEworkspace.cpp">
+      <Filter>Source Files\ARP-BE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\BE\MiniBucket.cpp">
+      <Filter>Source Files\ARP-BE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\AVLtreeInt64.cpp">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\AVLtreeObjects.cpp">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\AVLtreeSimple.cpp">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\FnExecutionThread.cpp">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\MiscUtils.cpp">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\Mutex.cpp">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\Utils\Sort.cxx">
+      <Filter>Source Files\ARP-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\CVO\Graph.cpp">
+      <Filter>Source Files\CVO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\CVO\Graph_MinFillOrderComputation.cpp">
+      <Filter>Source Files\CVO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\CVO\Graph_RemoveRedundantFillEdges.cpp">
+      <Filter>Source Files\CVO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ARP\CVO\VariableOrderComputation.cpp">
+      <Filter>Source Files\CVO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\miniSAT\Solver.cpp">
+      <Filter>Source Files\miniSAT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
